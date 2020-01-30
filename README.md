@@ -2,6 +2,12 @@
 
 A new Flutter project.
 
+Design Resource：http://www.freeuid.com/780.html
+
+| ![Screenshot](./screenshots/splash_screen.jpg) | ![Screenshot](./screenshots/login_screen.jpg)   |
+| ---------------------------------------------- | ----------------------------------------------- |
+| ![Screenshot](./screenshots/home_screen.jpg)   | ![Screenshot](./screenshots/popular_screen.jpg) |
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.

@@ -24,14 +24,15 @@ class PopularDeals extends StatelessWidget {
           ),
         ),
         Padding(
-          padding: EdgeInsets.only(left: 20.0,top: 20.0),
+          padding: EdgeInsets.only(left: 20.0, top: 20.0),
           child: Container(
-            height: 200.0,
+            height: 220.0,
             child: ListView.builder(
               scrollDirection: Axis.horizontal,
               itemCount: populars.length,
               itemBuilder: (BuildContext context, int index) {
                 return Container(
+                  width: 120.0,
                   margin: EdgeInsets.only(right: 30.0),
                   child: GestureDetector(
                     onTap: () => Navigator.push(
@@ -44,9 +45,8 @@ class PopularDeals extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
                         Container(
-                          padding: EdgeInsets.all(25.0),
-                          color: Theme.of(context).accentColor,
-                          width: 120.0,
+                          padding: EdgeInsets.all(20.0),
+                          
                           child: Image(
                             image: AssetImage(populars[index].imageUrl),
                           ),
@@ -59,6 +59,8 @@ class PopularDeals extends StatelessWidget {
                           style: TextStyle(
                             fontSize: 12.0,
                           ),
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
                         ),
                         SizedBox(
                           height: 6.0,

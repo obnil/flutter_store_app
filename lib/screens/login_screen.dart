@@ -25,13 +25,16 @@ class _LoginScreenState extends State<LoginScreen> {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
-                    Text(
-                      'Enter Premium Sound',
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 30.0,
-                          letterSpacing: 1.5,
-                          fontWeight: FontWeight.w600),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 20.0),
+                      child: Text(
+                        'Enter Premium Sound',
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 30.0,
+                            letterSpacing: 1.5,
+                            fontWeight: FontWeight.w600),
+                      ),
                     ),
                     SizedBox(
                       height: 100.0,

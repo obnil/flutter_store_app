@@ -81,14 +81,13 @@ class _HomeScreenState extends State<HomeScreen> {
                           children: <Widget>[
                             Container(
                                 padding: EdgeInsets.all(5.0),
-                                width: 70.0,
                                 decoration: BoxDecoration(
                                   color: Theme.of(context).accentColor,
                                   borderRadius: BorderRadius.circular(5.0),
                                 ),
                                 alignment: Alignment.center,
                                 child: Text(
-                                  'data',
+                                  'Best Seller',
                                   style: TextStyle(
                                       color: Color(0xFFBADAED), fontSize: 12.0),
                                 )),

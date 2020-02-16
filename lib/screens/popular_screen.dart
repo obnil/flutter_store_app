@@ -151,7 +151,7 @@ class _PopularScreenState extends State<PopularScreen> {
             ],
           ),
           Expanded(
-            child: Column(
+            child: ListView(
               children: <Widget>[
                 Padding(
                   padding: const EdgeInsets.only(
